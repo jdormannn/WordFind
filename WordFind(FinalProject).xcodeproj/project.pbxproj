@@ -13,10 +13,13 @@
 		B156C72C29FAED45007151AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B156C72A29FAED45007151AB /* Main.storyboard */; };
 		B156C72E29FAED46007151AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B156C72D29FAED46007151AB /* Assets.xcassets */; };
 		B156C73129FAED46007151AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B156C72F29FAED46007151AB /* LaunchScreen.storyboard */; };
+		B156C73F29FAEE6E007151AB /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156C73E29FAEE6E007151AB /* BoardViewController.swift */; };
+		B156C74129FAEE95007151AB /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156C74029FAEE95007151AB /* KeyboardViewController.swift */; };
+		B156C7A129FB6CCB007151AB /* Keycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156C7A029FB6CCB007151AB /* Keycell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B156C72129FAED45007151AB /* Worlde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Worlde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B156C72129FAED45007151AB /* WordFind(FinalProject).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordFind(FinalProject).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B156C72429FAED45007151AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B156C72629FAED45007151AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B156C72829FAED45007151AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		B156C72D29FAED46007151AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B156C73029FAED46007151AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B156C73229FAED46007151AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B156C73E29FAEE6E007151AB /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		B156C74029FAEE95007151AB /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B156C7A029FB6CCB007151AB /* Keycell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		B156C72229FAED45007151AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B156C72129FAED45007151AB /* Worlde.app */,
+				B156C72129FAED45007151AB /* WordFind(FinalProject).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +62,8 @@
 		B156C72329FAED45007151AB /* Worlde */ = {
 			isa = PBXGroup;
 			children = (
+				B156C73B29FAEE02007151AB /* Other */,
+				B156C73929FAEDE6007151AB /* Core */,
 				B156C72429FAED45007151AB /* AppDelegate.swift */,
 				B156C72629FAED45007151AB /* SceneDelegate.swift */,
 				B156C72829FAED45007151AB /* ViewController.swift */,
@@ -67,12 +75,29 @@
 			path = Worlde;
 			sourceTree = "<group>";
 		};
+		B156C73929FAEDE6007151AB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B156C73E29FAEE6E007151AB /* BoardViewController.swift */,
+				B156C74029FAEE95007151AB /* KeyboardViewController.swift */,
+				B156C7A029FB6CCB007151AB /* Keycell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B156C73B29FAEE02007151AB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B156C72029FAED45007151AB /* Worlde */ = {
+		B156C72029FAED45007151AB /* WordFind(FinalProject) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B156C73529FAED46007151AB /* Build configuration list for PBXNativeTarget "Worlde" */;
+			buildConfigurationList = B156C73529FAED46007151AB /* Build configuration list for PBXNativeTarget "WordFind(FinalProject)" */;
 			buildPhases = (
 				B156C71D29FAED45007151AB /* Sources */,
 				B156C71E29FAED45007151AB /* Frameworks */,
@@ -82,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = Worlde;
+			name = "WordFind(FinalProject)";
 			productName = Worlde;
-			productReference = B156C72129FAED45007151AB /* Worlde.app */;
+			productReference = B156C72129FAED45007151AB /* WordFind(FinalProject).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B156C71C29FAED45007151AB /* Build configuration list for PBXProject "Worlde" */;
+			buildConfigurationList = B156C71C29FAED45007151AB /* Build configuration list for PBXProject "WordFind(FinalProject)" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B156C72029FAED45007151AB /* Worlde */,
+				B156C72029FAED45007151AB /* WordFind(FinalProject) */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B156C72929FAED45007151AB /* ViewController.swift in Sources */,
+				B156C74129FAEE95007151AB /* KeyboardViewController.swift in Sources */,
 				B156C72529FAED45007151AB /* AppDelegate.swift in Sources */,
+				B156C7A129FB6CCB007151AB /* Keycell.swift in Sources */,
 				B156C72729FAED45007151AB /* SceneDelegate.swift in Sources */,
+				B156C73F29FAEE6E007151AB /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B156C71C29FAED45007151AB /* Build configuration list for PBXProject "Worlde" */ = {
+		B156C71C29FAED45007151AB /* Build configuration list for PBXProject "WordFind(FinalProject)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B156C73329FAED46007151AB /* Debug */,
@@ -346,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B156C73529FAED46007151AB /* Build configuration list for PBXNativeTarget "Worlde" */ = {
+		B156C73529FAED46007151AB /* Build configuration list for PBXNativeTarget "WordFind(FinalProject)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B156C73629FAED46007151AB /* Debug */,
